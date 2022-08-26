@@ -204,7 +204,7 @@ class SfRadialGaugeState extends State<SfRadialGauge>
 
     return RepaintBoundary(
         child: LimitedBox(
-            maxHeight: 270,
+            maxHeight: 200,
             maxWidth: 350,
             child: Container(
                 color: widget.backgroundColor,
